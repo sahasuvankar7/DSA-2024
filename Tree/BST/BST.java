@@ -1,4 +1,4 @@
-package BST;
+
 
 class BST {
     public class Node {
