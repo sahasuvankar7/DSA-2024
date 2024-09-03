@@ -1,6 +1,5 @@
+import java.util.*;
 //https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1
-
-import java.util.Stack;
 
 public class Balance_bracekets {
     public static void main(String[] args) {

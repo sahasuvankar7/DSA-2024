@@ -16,6 +16,7 @@ public class Main {
       int [] nums = {14,12,9,10,33,18,5,3};
       tree.populate(nums);
       tree.display();
+      tree.levelOrder();
       System.out.println(tree.balanced());
     
   }

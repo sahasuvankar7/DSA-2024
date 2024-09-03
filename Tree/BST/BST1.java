@@ -1,4 +1,4 @@
-
+import java.util.*;
 class BST1 {
   public class Node {
     private int value;
@@ -128,5 +128,25 @@ class BST1 {
     postOrder(node.right);
     System.out.println(node.value);
   }
+
+  // level order traversal
+  public void levelOrder(){
+    Queue<Node> queue = new LinkedList<Node>();
+    queue.add(root);
+    while(!queue.isEmpty()){
+      Node presentNode = queue.remove();
+      System.out.print(presentNode.value + " -> ");
+
+      if(presentNode.left!=null){
+        queue.add(presentNode.left);
+      }
+      if(presentNode.right!=null){
+        queue.add(presentNode.right);
+      }
+    }
+  }
+
+  // depth first search
+
 
 }

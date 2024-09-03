@@ -1,4 +1,4 @@
-package Stack;
+
 
 import java.util.Stack;
 
@@ -10,10 +10,6 @@ public class insert_element_at_bottom {
         st.push(2);
         st.push(1);
         st.push(8);
-
-
-
-
         Stack<Integer> newSt = insertAtBottom(st,2);
         while(newSt.empty()){
              System.out.println(newSt.pop());

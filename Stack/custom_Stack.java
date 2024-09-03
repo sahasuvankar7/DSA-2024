@@ -1,4 +1,4 @@
-  class custom_Stack {
+  public class custom_Stack {
     protected int [] data; // data of array type is taken
     private static  final int DEFAULT_SIZE = 10; // here data is private and static means it will not create any
     // objects and final means we can't change even if myself
